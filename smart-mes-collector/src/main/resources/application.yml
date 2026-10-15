@@ -1,0 +1,5 @@
+server: { port: 9006 }
+spring:
+  application: { name: smart-mes-collector }
+  rabbitmq: { host: localhost, port: 5672, username: guest, password: guest }
+smart-mes: { tcp-port: 9009 }

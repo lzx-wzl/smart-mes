@@ -1,0 +1,1 @@
+package com.lzx.smartmes.device.dto;import jakarta.validation.constraints.*;import lombok.*;@Data public class DeviceCreateDTO{@NotBlank private String deviceCode;@NotBlank private String deviceName;@NotBlank private String deviceType;@NotNull private Long workshopId;@NotBlank private String protocol;@NotBlank private String ipAddress;@NotNull @Positive private Integer port;}

@@ -1,0 +1,1 @@
+package com.lzx.smartmes.device;import org.springframework.boot.*;import org.springframework.boot.autoconfigure.SpringBootApplication;@SpringBootApplication(scanBasePackages="com.lzx.smartmes") public class DeviceApplication{public static void main(String[]a){SpringApplication.run(DeviceApplication.class,a);}}

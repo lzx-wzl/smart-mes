@@ -1,0 +1,1 @@
+package com.lzx.smartmes.integration;import org.springframework.boot.*;import org.springframework.boot.autoconfigure.SpringBootApplication;@SpringBootApplication(scanBasePackages="com.lzx.smartmes") public class IntegrationApplication{public static void main(String[]a){SpringApplication.run(IntegrationApplication.class,a);}}

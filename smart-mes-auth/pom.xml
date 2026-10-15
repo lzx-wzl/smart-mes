@@ -1,0 +1,54 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.lzx.smartmes</groupId>
+        <artifactId>smart-mes</artifactId>
+        <version>1.0.0</version>
+    </parent>
+
+    <artifactId>smart-mes-auth</artifactId>
+
+    <dependencies>
+
+        <dependency>
+            <groupId>com.lzx.smartmes</groupId>
+            <artifactId>smart-mes-common</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-security</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>io.jsonwebtoken</groupId>
+            <artifactId>jjwt-api</artifactId>
+            <version>${jjwt.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.jsonwebtoken</groupId>
+            <artifactId>jjwt-impl</artifactId>
+            <version>${jjwt.version}</version>
+            <scope>runtime</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>io.jsonwebtoken</groupId>
+            <artifactId>jjwt-jackson</artifactId>
+            <version>${jjwt.version}</version>
+            <scope>runtime</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springdoc</groupId>
+            <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+            <version>${springdoc.version}</version>
+        </dependency>
+
+    </dependencies>
+
+</project>

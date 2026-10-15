@@ -1,0 +1,23 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.lzx.smartmes</groupId>
+        <artifactId>smart-mes</artifactId>
+        <version>1.0.0</version>
+    </parent>
+
+    <artifactId>smart-mes-control</artifactId>
+
+    <dependencies>
+
+        <dependency>
+            <groupId>com.lzx.smartmes</groupId>
+            <artifactId>smart-mes-device</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
+    </dependencies>
+
+</project>

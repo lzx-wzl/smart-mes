@@ -1,0 +1,5 @@
+server: { port: 9010 }
+spring: { application: { name: smart-mes-plc-simulator } }
+smart-mes:
+  simulator: { mode: TCP, interval-ms: 3000 }
+  collector: { host: localhost, tcp-port: 9009, http-url: "http://localhost:9006/api/collector/telemetry" }
